@@ -1,2 +1,3 @@
-P01 :: [t] -> t
-P01 l = last l 
+p01 :: [t] -> t
+p01 [] = error "List too small"
+p01 l = last l 
